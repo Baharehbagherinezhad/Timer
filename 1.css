@@ -1,0 +1,55 @@
+.container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; /* چینش عمودی */
+    justify-content: center; /* مرکز عمودی */
+    align-items: center;     /* مرکز افقی */
+    gap: 15px;               /* فاصله بین المان‌ها */
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center; /* باکس‌ها کنار هم وسط صفحه */
+    gap: 10px;               /* فاصله بین input و button */
+}
+
+input{
+    text-align: center;
+    color: rgb(51, 35, 8);
+    background-color: rgb(209, 224, 122);
+    border-radius: 5px;
+    border-width: 4px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 5px rgb(133, 116, 209);
+}
+
+button{
+    background-color: rgb(106, 218, 180);
+    box-shadow: 2px 2px 5px orange;
+    color: blueviolet;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(184, 70, 70);
+    color: aliceblue;
+}
+
+#timer{
+    color: white;
+    background-color: brown;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 30px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 20px auto;
+    box-shadow: 2px 2px 5px rgb(116, 72, 236);
+}
+
